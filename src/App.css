@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.Navbar {
+  position: sticky;
+  z-index: 1;
+}
+.Navbar .Link {
+  color: white;
+}
+.Logo .Image{
+  height: 52px;
+}
+.Home {
+  background-color: black;
+  height: 100vh;
+}
+.Home-Text{
+  color: white;
+}
+.Home .Brand-Text {
+  padding-top: 30vh;
+}
+.Home .Brand-Headline{
+  font-size: 26px;
+  font-weight: 300;
+}
+.Home-Images .Images {
+  width: 100%;
+  margin-left: 17.5vh;
+  height: 100vh;
+}
+.Service {
+  padding-top: 22.5vh;
+  height: 100vh;
+  text-align: center;
+  background-color: black;
+  color: #fffdfdcc;
+}
+.Service .Headline {
+  font-weight: 500;
+}
+.Service .Text-Headline {
+  font-weight: 400;
+  color: white;
+  padding-top: 3vh;
+}
+.Service .Text {
+  font-size: 18px;
+  padding-top: 1vh;
+}
+.Product {
+  background-color: #000;
+  padding-top: 25vh;
+  height: 100vh;
+  width: 100%;
+}
+.Product .Headline {
+  color: white;
+  padding-bottom: 15vh;
+  text-align: center;  
+}
+.Footer{
+  height: 65vh;
+  width: 100%;
+  color: white;
+  background-color: #000;
+}
+.Footer .Logo-Images {
+  height: 52px;
+}
+.Footer .Email {
+  padding-top: 10vh;
+}
+.Footer .Footer-Contact{
+  padding-top: 20vh;
+}
+.Footer .Location {
+  padding-top: 20vh;
+}
+
+@media only screen and (max-width: 500px){
+  .Home{
+    height: 120vh;
+  }
+  .Home .Home-Row{
+    flex-direction: column-reverse;
+  }
+  .Home-Images{
+    padding-top: 15vh;
+  }
+  .Home-Images .Images {
+    height: 70vh;
+    width: 100%;
+    margin-left: 0px;
+  }
+  .Home .Brand-Text{
+    padding-top: 7vh;
+  }
+  .Product{
+    height: 150vh;
+  }
+  .Product .Col{
+    margin-left: 5vh;
+    margin-bottom: 5vh;
+  }
+}
